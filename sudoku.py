@@ -67,7 +67,6 @@ def empty_box(board):
     for x in range(len(board)):
         for y in range(len(board[0])):
             if board[x][y] == 0:
-                # print(x, y)
                 return (x, y) # row and column
     return None
 
